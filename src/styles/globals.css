@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --bg-soft: rgba(123, 74, 226, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background:  rgba(9,14,22,1) 100%;
+  /* background:  rgb(81, 87, 96) 100%; */
+  background-repeat: no-repeat;
+  width: 100%;
+  font-family: "Raleway", sans-serif ;
+}
+.menu{
+  background: var(--bg-soft);
+}
+
+.menu .list ul li a:hover{
+  font-weight: bold;
+  color: rgba(123, 74, 226, 0.50);
+  font-size: 1.1rem;
+  transition: .5s;
+}
+
+.introduction__saudation__clap {
+  background: #7B4AE2 ;
+  display: block;
+  max-height: calc(1rem + 10px);
+  
+}
+.introduction__avatar{
+  width: 100%;
+  height: 500px;
+  background: rgb(69, 29, 29);
+  background-image: url('../sources/fotoMinha.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.introduction__contact__button{
+  border: 1px solid #7B4AE2;
+  padding: 10px;
+}
