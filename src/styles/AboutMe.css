@@ -1,0 +1,31 @@
+.AboutMe__img__whiteBg{
+    border-radius: 50%;
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 200px;
+    top: px;
+    z-index: -1;
+}
+
+.AboutMe__img__me{
+    background-image: url('../sources/fotoMinhaQuadrada.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 1px solid rgb(247, 244, 244);
+}
+@media (max-width: 960px) {
+    .AboutMe__img__me{
+        width: 80vw;
+        max-width: 400px;
+        height: 40vh;
+        max-height: 400px;
+    }
+    .AboutMe__img__whiteBg{
+        display: none;
+    }
+}

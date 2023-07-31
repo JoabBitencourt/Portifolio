@@ -1,33 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+.introduction__avatar{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-image: url('../sources/avatar.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }  
+
 .introduction__avatar__saudation{
     font-family: "Bungee Spice";
     font-size: 100px;
     text-align: center;
 }
-.introduction__avatar > span:nth-child(1){
+.introduction__avatar{
+    overflow: hidden;
+}
+.introduction__avatar__text{
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+}
+.introduction__avatar__text > span:nth-child(1){
     -webkit-transform: translateX(100%) translateY(10%) rotate(-40deg);
     transform: translateX(100%) translateY(10%) rotate(-40deg);
 }
-.introduction__avatar > span:nth-child(2){
+.introduction__avatar__text > span:nth-child(2){
     -webkit-transform: translateX(40%) translateY(7%) rotate(-24deg);
     transform: translateX(40%) translateY(7%) rotate(-24deg);
 }
-.introduction__avatar > span:nth-child(3){
+.introduction__avatar__text > span:nth-child(3){
     -webkit-transform: translateX(-20%) translateY(6%) rotate(-5deg);
     transform: translateX(-20%) translateY(6%) rotate(-5deg);
 }
-.introduction__avatar > span:nth-child(4){
+.introduction__avatar__text > span:nth-child(4){
     -webkit-transform: translateX(-20%) translateY(6%) rotate(-5deg);
     transform: translateX(-130%) translateY(6%) rotate(10deg);
 }
-.introduction__avatar > span{
-    animation: blink 1s infinite normal;
+.introduction__avatar__text{
+    animation: blink1 15s alternate ;
 }
-/* @keyframes blink {
+@keyframes blink1 {
     0%{
-        -webkit-transform: translateX(100%) translateY(10%) rotate(-40deg);
-        transform: translateX(100%) translateY(10%) rotate(-40deg);
+        width: 0;
+    }
+    30% {
+        width: 100%;
+    }
+    50% {
+        width: 100%;
+    }
+    75% {
+        width: 100%;
     }
     100% {
+        width: 0;
     }
-} */
+}
+

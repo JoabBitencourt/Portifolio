@@ -1,0 +1,6 @@
+.Card__img{
+    background-image: url("../sources/geoObras.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: blue;
+}

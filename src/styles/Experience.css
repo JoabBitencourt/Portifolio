@@ -1,0 +1,60 @@
+
+.Experience__cards{
+    width: 100%;
+    justify-content: space-around;
+}
+.Experience__card{
+    border-radius: 16px;
+    padding: 20px;
+    width: 246px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Experience__card:nth-child(odd) {
+    border: 1px solid #7B4AE2;
+}
+.Experience__card:nth-child(even) {
+    background-color: rgba(123, 74, 226, 20%);
+    margin: 0 3.5rem;
+}
+.Experience__card h1 {
+    font-size:  2rem;
+    font-weight: bold;
+    line-height: 2rem+0;
+}
+.Experience__card .icon{
+    width: 72px;
+    height: 64px;
+}
+.Experience__card .icon:nth-child(1){
+    background-image: url('../sources/CodeIcon.svg');
+    background-position: cover;
+}
+.Experience__bar{
+    width: 100%;
+    min-width: calc(246px*3 + 6rem);
+    height: 110px;
+    background-color: rgba(123, 74, 226, 20%);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Experince__bar__especiality{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 246px;
+    color: #7B4AE2;
+}
+
+
+.Experince__bar__especiality h1{
+    line-height: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}

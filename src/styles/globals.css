@@ -28,9 +28,7 @@ body {
   width: 100%;
   font-family: "Raleway", sans-serif ;
 }
-.menu{
-  background: var(--bg-soft);
-}
+
 
 .menu .list ul li a:hover{
   font-weight: bold;
@@ -45,16 +43,13 @@ body {
   max-height: calc(1rem + 10px);
   
 }
-.introduction__avatar{
-  width: 100%;
-  height: 500px;
-  background-image: url('../sources/avatar.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  border-radius: 100%;
-}
 
 .introduction__contact__button{
   border: 1px solid #7B4AE2;
   padding: 10px;
 }
+hr{
+  border-top: 1px solid rgba(123, 74, 226, 20%);
+  width: 100%;
+}
+
