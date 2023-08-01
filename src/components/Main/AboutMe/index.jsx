@@ -7,8 +7,8 @@ export default function AboutMe() {
       <SectionTitle>
         🤔Sobre mim
       </SectionTitle>
-      <div className="AboutMe__container flex flex-col w-10/12 items-center md:grid md:grid-cols-12">
-      <div  className="AboutMe__img md:col-span-5 ">
+      <div className="AboutMe__container flex flex-col w-12/12 items-center md:grid md:grid-cols-12">
+      <div  className="AboutMe__img md:col-span-5 flex justify-center ">
         <div className="AboutMe__img__me w-50 h-50"></div>
       </div>
 
