@@ -1,22 +1,24 @@
 import React from "react";
 
+import { FaCode, FaGraduationCap, FaRegStar } from "react-icons/fa"
+
 export default function Experience() {
   return (
     <section  className="Experience flex flex-col items-center">
       
       <div className="Experience__cads flex flex-col items-center gap-y-5 md:flex-row">
         <div className="flex flex-col items-center Experience__card ">
-          <div className="icon"></div>
+          <FaCode />
           <span>Desenvolvedor Outsystems</span>
           <h1>Full Stack</h1>
         </div>
         <div className="flex flex-col items-center Experience__card">
-          <div className="icon"></div>
+          <FaRegStar />
           <span>+2 anos de</span>
           <h1>Experiencia</h1>
         </div>
         <div className="flex flex-col items-center Experience__card">
-          <div className="icon"></div>
+        <FaGraduationCap />
           <span>Formação</span>
           <h1>T.A.D.S</h1>
         </div>

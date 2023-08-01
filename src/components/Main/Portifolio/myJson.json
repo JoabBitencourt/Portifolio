@@ -1,8 +1,8 @@
 {
   "Projects": [
     {
-      "title": "Geo Obras",
-      "description": "Sistema para gerênciamento de projetos relacionado a construções físicas para Itaipu. Com mais de 50 tabelas",
+      "title": "Obras",
+      "description": "Sistema para gerênciamento de projetos relacionado a construções físicas para Itaipu.",
       "tags": [
         {
           "colorBG": "rgba(255,36,0,.2)",
@@ -29,7 +29,7 @@
     },
     {
       "title": "Formulario eletrónico",
-      "description": "Sistema para gerênciamento de projetos relacionado a construções físicas para Itaipu. Com mais de 50 tabelas",
+      "description": "Sistema para migração de formulários físicos para eletronicos dentro das área da Itaipu.",
       "tags": [
         {
           "colorBG": "rgba(255,36,0,.2)",
@@ -55,8 +55,8 @@
       "image": "./GeoObras.jpg"
     },
     {
-      "title": "Gerenciamento de Siglas",
-      "description": "Sistema para gerênciamento de projetos relacionado a construções físicas para Itaipu. Com mais de 50 tabelas",
+      "title": "Ladding page Bitter",
+      "description": "Ladding page para empresa prestadora de serviços de engenharia elétrica.",
       "tags": [
         {
           "colorBG": "rgba(255,36,0,.2)",
@@ -83,115 +83,7 @@
     },
     {
       "title": "Reciclometro",
-      "description": "Sistema para gerênciamento de projetos relacionado a construções físicas para Itaipu. Com mais de 50 tabelas",
-      "tags": [
-        {
-          "colorBG": "rgba(255,36,0,.2)",
-          "colorLetter": "#ff2400",
-          "name": "Outsystems"
-        },
-        {
-          "colorBG": "#f7e018",
-          "colorLetter": "#000",
-          "name": "JavaScript"
-        },
-        {
-          "colorBG": "#222222",
-          "colorLetter": "#00dcff",
-          "name": "React"
-        }
-      ],
-      "atuation": [
-        "Melhorias",
-        "Ajustes",
-        "Novas Funcionalidade"
-      ],
-      "image": "./GeoObras.jpg"
-    },
-    {
-      "title": "Processo de Contratação",
-      "description": "Sistema para gerênciamento de projetos relacionado a construções físicas para Itaipu. Com mais de 50 tabelas",
-      "tags": [
-        {
-          "colorBG": "rgba(255,36,0,.2)",
-          "colorLetter": "#ff2400",
-          "name": "Outsystems"
-        },
-        {
-          "colorBG": "#f7e018",
-          "colorLetter": "#000",
-          "name": "JavaScript"
-        },
-        {
-          "colorBG": "#222222",
-          "colorLetter": "#00dcff",
-          "name": "React"
-        }
-      ],
-      "atuation": [
-        "Melhorias",
-        "Ajustes",
-        "Novas Funcionalidade"
-      ],
-      "image": "./GeoObras.jpg"
-    },
-    {
-      "title": "Gerenciador de aplicativos",
-      "description": "Sistema para gerênciamento de projetos relacionado a construções físicas para Itaipu. Com mais de 50 tabelas",
-      "tags": [
-        {
-          "colorBG": "rgba(255,36,0,.2)",
-          "colorLetter": "#ff2400",
-          "name": "Outsystems"
-        },
-        {
-          "colorBG": "#f7e018",
-          "colorLetter": "#000",
-          "name": "JavaScript"
-        },
-        {
-          "colorBG": "#222222",
-          "colorLetter": "#00dcff",
-          "name": "React"
-        }
-      ],
-      "atuation": [
-        "Melhorias",
-        "Ajustes",
-        "Novas Funcionalidade"
-      ],
-      "image": "./GeoObras.jpg"
-    },
-    {
-      "title": "Landing page Bitter",
-      "description": "Sistema para gerênciamento de projetos relacionado a construções físicas para Itaipu. Com mais de 50 tabelas",
-      "tags": [
-        {
-          "colorBG": "rgba(255,36,0,.2)",
-          "colorLetter": "#ff2400",
-          "name": "Outsystems"
-        },
-        {
-          "colorBG": "#f7e018",
-          "colorLetter": "#000",
-          "name": "JavaScript"
-        },
-        {
-          "colorBG": "#222222",
-          "colorLetter": "#00dcff",
-          "name": "React"
-        }
-      ],
-      "atuation": [
-        "Melhorias",
-        "Ajustes",
-        "Novas Funcionalidade"
-      ],
-      "image": "./GeoObras.jpg"
-    },
-    {
-      "title": "Teste",
-      "description": "Sistema para gerênciamento de projetos relacionado a construções físicas para Itaipu. Com mais de 50 tabelas",
+      "description": "Gerenciamento de captação de resíduos solidos dentro do Paraná.",
       "tags": [
         {
           "colorBG": "rgba(255,36,0,.2)",
